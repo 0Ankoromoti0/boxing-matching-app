@@ -1,0 +1,71 @@
+/* src/pages/Welcome.css */
+.welcome-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* 左半分のスタイル */
+  .welcome-image {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .welcome-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* 右半分のスタイル */
+  .welcome-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .welcome-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .welcome-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555555;
+  }
+  
+  /* Google認証ボタンのスタイル */
+  .welcome-content button {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: solid 1px;
+  }
+  
+  .welcome-content button:hover {
+    background-color: #ccc;
+  }
+  
+  .welcome-content button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  

@@ -1,0 +1,71 @@
+/* src/components/MatchList.css */
+
+.match-list {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.match-card {
+  background-color: #36393f; /* カードの背景色 */
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+  max-width: 600px;
+  color: #ffffff;
+}
+
+.match-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.match-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.match-name {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.match-time {
+  font-size: 0.9rem;
+  color: #b9bbbe;
+  margin: 0;
+}
+
+.match-details {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.match-details p {
+  margin: 5px 0;
+}
+
+.join-button {
+  background-color: #f04747;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.join-button:hover {
+  background-color: #ff5c5c;
+}
